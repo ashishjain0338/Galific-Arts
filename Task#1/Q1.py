@@ -1,0 +1,12 @@
+print("5 is an integer\n",
+"5.0 is a float constant\n",
+"5 > 1 is a boolean whose value is True\n",
+"'5' is a character\n",
+"5*2 is an integer\n",
+"'5'*2 is a string = '55'\n",
+"'5' + '2' is a concatenated string '52'\n",
+"5/2 is a float value (2.5)\n",
+"5 // 2 is an integer (2)\n",
+"[5,2,1] is a list\n",
+"5 in [1,4,6 ] is a bool whose value is False\n",
+"math.pi is a float with value of pi (3.14)\n")
