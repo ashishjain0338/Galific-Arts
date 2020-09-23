@@ -1,20 +1,20 @@
 {
     "product": "civil",
-    "init": "2020092000",
+    "init": "2020092218",
     "dataseries": [
         {
             "timepoint": 3,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": -4,
             "prec_type": "rain",
-            "prec_amount": 1,
-            "temp2m": 33,
-            "rh2m": "51%",
+            "prec_amount": 2,
+            "temp2m": 29,
+            "rh2m": "71%",
             "wind10m": {
-                "direction": "E",
+                "direction": "SW",
                 "speed": 2
             },
-            "weather": "lightrainday"
+            "weather": "lightrainnight"
         },
         {
             "timepoint": 6,
@@ -22,8 +22,8 @@
             "lifted_index": -4,
             "prec_type": "rain",
             "prec_amount": 3,
-            "temp2m": 34,
-            "rh2m": "55%",
+            "temp2m": 29,
+            "rh2m": "67%",
             "wind10m": {
                 "direction": "SE",
                 "speed": 2
@@ -32,168 +32,168 @@
         },
         {
             "timepoint": 9,
-            "cloudcover": 9,
-            "lifted_index": -4,
+            "cloudcover": 8,
+            "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 3,
             "temp2m": 33,
-            "rh2m": "56%",
+            "rh2m": "52%",
             "wind10m": {
-                "direction": "SW",
-                "speed": 3
+                "direction": "S",
+                "speed": 2
             },
             "weather": "lightrainday"
         },
         {
             "timepoint": 12,
-            "cloudcover": 9,
-            "lifted_index": -1,
+            "cloudcover": 8,
+            "lifted_index": -4,
             "prec_type": "rain",
             "prec_amount": 3,
-            "temp2m": 30,
-            "rh2m": "60%",
+            "temp2m": 33,
+            "rh2m": "46%",
             "wind10m": {
-                "direction": "SW",
-                "speed": 3
+                "direction": "NW",
+                "speed": 2
             },
-            "weather": "lightrainnight"
+            "weather": "lightrainday"
         },
         {
             "timepoint": 15,
             "cloudcover": 9,
-            "lifted_index": -1,
-            "prec_type": "none",
-            "prec_amount": 3,
-            "temp2m": 30,
-            "rh2m": "67%",
+            "lifted_index": -4,
+            "prec_type": "rain",
+            "prec_amount": 4,
+            "temp2m": 28,
+            "rh2m": "69%",
             "wind10m": {
-                "direction": "SW",
-                "speed": 2
+                "direction": "N",
+                "speed": 3
             },
-            "weather": "cloudynight"
+            "weather": "rainday"
         },
         {
             "timepoint": 18,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": -4,
             "prec_type": "rain",
-            "prec_amount": 3,
-            "temp2m": 29,
-            "rh2m": "65%",
+            "prec_amount": 4,
+            "temp2m": 28,
+            "rh2m": "74%",
             "wind10m": {
-                "direction": "SW",
+                "direction": "NE",
                 "speed": 2
             },
-            "weather": "lightrainnight"
+            "weather": "rainnight"
         },
         {
             "timepoint": 21,
             "cloudcover": 9,
             "lifted_index": -1,
             "prec_type": "rain",
-            "prec_amount": 3,
-            "temp2m": 28,
-            "rh2m": "71%",
+            "prec_amount": 4,
+            "temp2m": 27,
+            "rh2m": "70%",
             "wind10m": {
-                "direction": "W",
+                "direction": "N",
                 "speed": 2
             },
-            "weather": "lightrainnight"
+            "weather": "rainnight"
         },
         {
             "timepoint": 24,
-            "cloudcover": 6,
+            "cloudcover": 9,
             "lifted_index": -1,
             "prec_type": "rain",
-            "prec_amount": 3,
-            "temp2m": 30,
-            "rh2m": "61%",
+            "prec_amount": 4,
+            "temp2m": 26,
+            "rh2m": "78%",
             "wind10m": {
-                "direction": "S",
-                "speed": 2
+                "direction": "N",
+                "speed": 3
             },
-            "weather": "oshowerday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 27,
-            "cloudcover": 7,
-            "lifted_index": -1,
+            "cloudcover": 9,
+            "lifted_index": 2,
             "prec_type": "rain",
-            "prec_amount": 3,
-            "temp2m": 33,
-            "rh2m": "53%",
+            "prec_amount": 4,
+            "temp2m": 25,
+            "rh2m": "79%",
             "wind10m": {
-                "direction": "SE",
-                "speed": 2
+                "direction": "N",
+                "speed": 3
             },
-            "weather": "oshowerday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 30,
-            "cloudcover": 8,
-            "lifted_index": -4,
+            "cloudcover": 9,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 4,
-            "temp2m": 34,
-            "rh2m": "53%",
+            "temp2m": 24,
+            "rh2m": "76%",
             "wind10m": {
-                "direction": "S",
-                "speed": 3
+                "direction": "N",
+                "speed": 2
             },
             "weather": "rainday"
         },
         {
             "timepoint": 33,
             "cloudcover": 9,
-            "lifted_index": -4,
+            "lifted_index": 2,
+            "prec_type": "none",
+            "prec_amount": 4,
+            "temp2m": 27,
+            "rh2m": "59%",
+            "wind10m": {
+                "direction": "N",
+                "speed": 2
+            },
+            "weather": "cloudyday"
+        },
+        {
+            "timepoint": 36,
+            "cloudcover": 7,
+            "lifted_index": -1,
+            "prec_type": "none",
+            "prec_amount": 4,
+            "temp2m": 31,
+            "rh2m": "55%",
+            "wind10m": {
+                "direction": "N",
+                "speed": 3
+            },
+            "weather": "mcloudyday"
+        },
+        {
+            "timepoint": 39,
+            "cloudcover": 7,
+            "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 4,
-            "temp2m": 32,
-            "rh2m": "57%",
+            "temp2m": 30,
+            "rh2m": "60%",
             "wind10m": {
-                "direction": "S",
+                "direction": "N",
                 "speed": 3
             },
             "weather": "rainday"
         },
         {
-            "timepoint": 36,
-            "cloudcover": 9,
-            "lifted_index": -4,
-            "prec_type": "rain",
-            "prec_amount": 4,
-            "temp2m": 30,
-            "rh2m": "69%",
-            "wind10m": {
-                "direction": "S",
-                "speed": 3
-            },
-            "weather": "rainnight"
-        },
-        {
-            "timepoint": 39,
-            "cloudcover": 9,
-            "lifted_index": -4,
-            "prec_type": "rain",
-            "prec_amount": 4,
-            "temp2m": 29,
-            "rh2m": "72%",
-            "wind10m": {
-                "direction": "SE",
-                "speed": 3
-            },
-            "weather": "rainnight"
-        },
-        {
             "timepoint": 42,
-            "cloudcover": 9,
+            "cloudcover": 8,
             "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 4,
-            "temp2m": 29,
-            "rh2m": "68%",
+            "temp2m": 28,
+            "rh2m": "65%",
             "wind10m": {
-                "direction": "SE",
+                "direction": "NE",
                 "speed": 3
             },
             "weather": "rainnight"
@@ -201,55 +201,55 @@
         {
             "timepoint": 45,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 4,
-            "temp2m": 28,
-            "rh2m": "73%",
+            "temp2m": 26,
+            "rh2m": "69%",
             "wind10m": {
-                "direction": "SE",
-                "speed": 3
+                "direction": "N",
+                "speed": 2
             },
             "weather": "rainnight"
         },
         {
             "timepoint": 48,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 4,
-            "temp2m": 29,
+            "temp2m": 25,
             "rh2m": "66%",
             "wind10m": {
-                "direction": "SE",
-                "speed": 3
+                "direction": "N",
+                "speed": 2
             },
-            "weather": "rainday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 51,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 4,
-            "temp2m": 32,
-            "rh2m": "60%",
+            "temp2m": 24,
+            "rh2m": "68%",
             "wind10m": {
-                "direction": "SE",
-                "speed": 3
+                "direction": "N",
+                "speed": 2
             },
-            "weather": "rainday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 54,
-            "cloudcover": 9,
-            "lifted_index": -1,
+            "cloudcover": 8,
+            "lifted_index": 6,
             "prec_type": "rain",
             "prec_amount": 4,
-            "temp2m": 33,
-            "rh2m": "52%",
+            "temp2m": 25,
+            "rh2m": "70%",
             "wind10m": {
-                "direction": "S",
+                "direction": "N",
                 "speed": 2
             },
             "weather": "rainday"
@@ -257,30 +257,30 @@
         {
             "timepoint": 57,
             "cloudcover": 9,
-            "lifted_index": -4,
-            "prec_type": "rain",
+            "lifted_index": 2,
+            "prec_type": "none",
             "prec_amount": 4,
-            "temp2m": 31,
-            "rh2m": "57%",
+            "temp2m": 29,
+            "rh2m": "59%",
             "wind10m": {
-                "direction": "SW",
+                "direction": "NE",
                 "speed": 2
             },
-            "weather": "rainday"
+            "weather": "cloudyday"
         },
         {
             "timepoint": 60,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 4,
             "temp2m": 30,
-            "rh2m": "62%",
+            "rh2m": "51%",
             "wind10m": {
-                "direction": "S",
-                "speed": 3
+                "direction": "N",
+                "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 63,
@@ -288,55 +288,55 @@
             "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 4,
-            "temp2m": 29,
-            "rh2m": "74%",
+            "temp2m": 30,
+            "rh2m": "58%",
             "wind10m": {
-                "direction": "S",
-                "speed": 3
+                "direction": "NE",
+                "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 66,
-            "cloudcover": 8,
+            "cloudcover": 9,
             "lifted_index": -1,
             "prec_type": "rain",
-            "prec_amount": 5,
+            "prec_amount": 4,
             "temp2m": 28,
-            "rh2m": "75%",
+            "rh2m": "63%",
             "wind10m": {
-                "direction": "SE",
+                "direction": "E",
                 "speed": 2
             },
             "weather": "rainnight"
         },
         {
             "timepoint": 69,
-            "cloudcover": 8,
+            "cloudcover": 9,
             "lifted_index": -1,
             "prec_type": "rain",
-            "prec_amount": 5,
+            "prec_amount": 4,
             "temp2m": 28,
-            "rh2m": "70%",
+            "rh2m": "65%",
             "wind10m": {
-                "direction": "SE",
+                "direction": "E",
                 "speed": 2
             },
             "weather": "rainnight"
         },
         {
             "timepoint": 72,
-            "cloudcover": 8,
+            "cloudcover": 9,
             "lifted_index": -1,
             "prec_type": "rain",
-            "prec_amount": 5,
-            "temp2m": 29,
-            "rh2m": "69%",
+            "prec_amount": 4,
+            "temp2m": 27,
+            "rh2m": "72%",
             "wind10m": {
-                "direction": "SE",
+                "direction": "E",
                 "speed": 2
             },
-            "weather": "rainday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 75,
@@ -344,13 +344,13 @@
             "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 30,
-            "rh2m": "50%",
+            "temp2m": 26,
+            "rh2m": "71%",
             "wind10m": {
                 "direction": "E",
                 "speed": 2
             },
-            "weather": "rainday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 78,
@@ -358,10 +358,10 @@
             "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 32,
-            "rh2m": "58%",
+            "temp2m": 27,
+            "rh2m": "74%",
             "wind10m": {
-                "direction": "N",
+                "direction": "NE",
                 "speed": 2
             },
             "weather": "rainday"
@@ -369,30 +369,30 @@
         {
             "timepoint": 81,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 28,
-            "rh2m": "65%",
+            "temp2m": 27,
+            "rh2m": "70%",
             "wind10m": {
-                "direction": "N",
-                "speed": 3
+                "direction": "E",
+                "speed": 2
             },
             "weather": "rainday"
         },
         {
             "timepoint": 84,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 26,
-            "rh2m": "74%",
+            "temp2m": 29,
+            "rh2m": "58%",
             "wind10m": {
-                "direction": "N",
-                "speed": 3
+                "direction": "E",
+                "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 87,
@@ -400,13 +400,13 @@
             "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 25,
-            "rh2m": "76%",
+            "temp2m": 28,
+            "rh2m": "53%",
             "wind10m": {
-                "direction": "N",
+                "direction": "NE",
                 "speed": 3
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 90,
@@ -414,10 +414,10 @@
             "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 24,
-            "rh2m": "76%",
+            "temp2m": 25,
+            "rh2m": "61%",
             "wind10m": {
-                "direction": "N",
+                "direction": "NE",
                 "speed": 3
             },
             "weather": "rainnight"
@@ -425,14 +425,14 @@
         {
             "timepoint": 93,
             "cloudcover": 9,
-            "lifted_index": 6,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 23,
-            "rh2m": "80%",
+            "temp2m": 25,
+            "rh2m": "65%",
             "wind10m": {
-                "direction": "N",
-                "speed": 3
+                "direction": "NE",
+                "speed": 2
             },
             "weather": "rainnight"
         },
@@ -442,150 +442,150 @@
             "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 24,
-            "rh2m": "73%",
+            "temp2m": 25,
+            "rh2m": "74%",
             "wind10m": {
-                "direction": "N",
-                "speed": 3
+                "direction": "NE",
+                "speed": 2
             },
-            "weather": "rainday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 99,
             "cloudcover": 9,
             "lifted_index": 2,
-            "prec_type": "none",
+            "prec_type": "rain",
             "prec_amount": 5,
             "temp2m": 24,
-            "rh2m": "70%",
+            "rh2m": "69%",
             "wind10m": {
-                "direction": "N",
-                "speed": 3
+                "direction": "NE",
+                "speed": 2
             },
-            "weather": "cloudyday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 102,
             "cloudcover": 9,
             "lifted_index": 2,
-            "prec_type": "none",
+            "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 26,
-            "rh2m": "61%",
+            "temp2m": 25,
+            "rh2m": "68%",
             "wind10m": {
-                "direction": "N",
-                "speed": 3
+                "direction": "NE",
+                "speed": 2
             },
-            "weather": "cloudyday"
+            "weather": "rainday"
         },
         {
             "timepoint": 105,
             "cloudcover": 9,
             "lifted_index": 2,
-            "prec_type": "none",
+            "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 25,
-            "rh2m": "63%",
+            "temp2m": 26,
+            "rh2m": "60%",
             "wind10m": {
-                "direction": "N",
-                "speed": 3
+                "direction": "NE",
+                "speed": 2
             },
-            "weather": "cloudyday"
+            "weather": "rainday"
         },
         {
             "timepoint": 108,
             "cloudcover": 9,
-            "lifted_index": 6,
-            "prec_type": "none",
+            "lifted_index": 2,
+            "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 24,
-            "rh2m": "68%",
+            "temp2m": 27,
+            "rh2m": "63%",
             "wind10m": {
-                "direction": "N",
+                "direction": "NE",
                 "speed": 3
             },
-            "weather": "cloudynight"
+            "weather": "rainday"
         },
         {
             "timepoint": 111,
             "cloudcover": 9,
-            "lifted_index": 6,
-            "prec_type": "none",
+            "lifted_index": 2,
+            "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 24,
+            "temp2m": 27,
             "rh2m": "62%",
             "wind10m": {
-                "direction": "N",
-                "speed": 2
+                "direction": "NE",
+                "speed": 3
             },
-            "weather": "cloudynight"
+            "weather": "rainday"
         },
         {
             "timepoint": 114,
             "cloudcover": 9,
-            "lifted_index": 6,
-            "prec_type": "none",
+            "lifted_index": 2,
+            "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 23,
-            "rh2m": "70%",
-            "wind10m": {
-                "direction": "N",
-                "speed": 2
-            },
-            "weather": "cloudynight"
-        },
-        {
-            "timepoint": 117,
-            "cloudcover": 9,
-            "lifted_index": 6,
-            "prec_type": "none",
-            "prec_amount": 5,
-            "temp2m": 23,
-            "rh2m": "69%",
-            "wind10m": {
-                "direction": "N",
-                "speed": 2
-            },
-            "weather": "cloudynight"
-        },
-        {
-            "timepoint": 120,
-            "cloudcover": 9,
-            "lifted_index": 6,
-            "prec_type": "none",
-            "prec_amount": 5,
-            "temp2m": 23,
+            "temp2m": 25,
             "rh2m": "65%",
             "wind10m": {
                 "direction": "NE",
                 "speed": 2
             },
-            "weather": "cloudyday"
+            "weather": "rainnight"
+        },
+        {
+            "timepoint": 117,
+            "cloudcover": 9,
+            "lifted_index": 2,
+            "prec_type": "rain",
+            "prec_amount": 5,
+            "temp2m": 25,
+            "rh2m": "65%",
+            "wind10m": {
+                "direction": "NE",
+                "speed": 2
+            },
+            "weather": "rainnight"
+        },
+        {
+            "timepoint": 120,
+            "cloudcover": 9,
+            "lifted_index": 2,
+            "prec_type": "rain",
+            "prec_amount": 5,
+            "temp2m": 24,
+            "rh2m": "70%",
+            "wind10m": {
+                "direction": "NE",
+                "speed": 2
+            },
+            "weather": "rainnight"
         },
         {
             "timepoint": 123,
             "cloudcover": 9,
             "lifted_index": 6,
-            "prec_type": "none",
+            "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 28,
-            "rh2m": "52%",
+            "temp2m": 23,
+            "rh2m": "72%",
             "wind10m": {
                 "direction": "NE",
                 "speed": 2
             },
-            "weather": "cloudyday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 126,
             "cloudcover": 9,
-            "lifted_index": 2,
+            "lifted_index": 6,
             "prec_type": "none",
             "prec_amount": 5,
-            "temp2m": 32,
-            "rh2m": "41%",
+            "temp2m": 24,
+            "rh2m": "70%",
             "wind10m": {
-                "direction": "E",
+                "direction": "NE",
                 "speed": 2
             },
             "weather": "cloudyday"
@@ -593,11 +593,25 @@
         {
             "timepoint": 129,
             "cloudcover": 9,
+            "lifted_index": 6,
+            "prec_type": "none",
+            "prec_amount": 5,
+            "temp2m": 26,
+            "rh2m": "60%",
+            "wind10m": {
+                "direction": "NE",
+                "speed": 2
+            },
+            "weather": "cloudyday"
+        },
+        {
+            "timepoint": 132,
+            "cloudcover": 9,
             "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 31,
-            "rh2m": "48%",
+            "temp2m": 27,
+            "rh2m": "56%",
             "wind10m": {
                 "direction": "NE",
                 "speed": 2
@@ -605,32 +619,18 @@
             "weather": "rainday"
         },
         {
-            "timepoint": 132,
+            "timepoint": 135,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
             "temp2m": 28,
             "rh2m": "59%",
             "wind10m": {
-                "direction": "NE",
-                "speed": 3
-            },
-            "weather": "rainnight"
-        },
-        {
-            "timepoint": 135,
-            "cloudcover": 8,
-            "lifted_index": 2,
-            "prec_type": "rain",
-            "prec_amount": 5,
-            "temp2m": 27,
-            "rh2m": "64%",
-            "wind10m": {
-                "direction": "NE",
+                "direction": "E",
                 "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 138,
@@ -638,10 +638,10 @@
             "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 25,
-            "rh2m": "65%",
+            "temp2m": 27,
+            "rh2m": "60%",
             "wind10m": {
-                "direction": "NE",
+                "direction": "E",
                 "speed": 2
             },
             "weather": "rainnight"
@@ -650,52 +650,52 @@
             "timepoint": 141,
             "cloudcover": 9,
             "lifted_index": 2,
-            "prec_type": "rain",
+            "prec_type": "none",
             "prec_amount": 5,
-            "temp2m": 24,
-            "rh2m": "70%",
+            "temp2m": 27,
+            "rh2m": "68%",
             "wind10m": {
-                "direction": "NE",
+                "direction": "E",
                 "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "cloudynight"
         },
         {
             "timepoint": 144,
             "cloudcover": 9,
             "lifted_index": 2,
-            "prec_type": "rain",
+            "prec_type": "none",
+            "prec_amount": 5,
+            "temp2m": 26,
+            "rh2m": "67%",
+            "wind10m": {
+                "direction": "E",
+                "speed": 2
+            },
+            "weather": "cloudynight"
+        },
+        {
+            "timepoint": 147,
+            "cloudcover": 8,
+            "lifted_index": 2,
+            "prec_type": "none",
             "prec_amount": 5,
             "temp2m": 25,
-            "rh2m": "74%",
+            "rh2m": "69%",
             "wind10m": {
                 "direction": "NE",
                 "speed": 2
             },
-            "weather": "rainday"
-        },
-        {
-            "timepoint": 147,
-            "cloudcover": 9,
-            "lifted_index": 2,
-            "prec_type": "rain",
-            "prec_amount": 5,
-            "temp2m": 27,
-            "rh2m": "58%",
-            "wind10m": {
-                "direction": "N",
-                "speed": 2
-            },
-            "weather": "rainday"
+            "weather": "cloudynight"
         },
         {
             "timepoint": 150,
-            "cloudcover": 9,
+            "cloudcover": 7,
             "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 28,
-            "rh2m": "63%",
+            "temp2m": 26,
+            "rh2m": "71%",
             "wind10m": {
                 "direction": "NE",
                 "speed": 2
@@ -705,14 +705,14 @@
         {
             "timepoint": 153,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
             "temp2m": 28,
-            "rh2m": "56%",
+            "rh2m": "64%",
             "wind10m": {
-                "direction": "NE",
-                "speed": 3
+                "direction": "E",
+                "speed": 2
             },
             "weather": "rainday"
         },
@@ -722,38 +722,38 @@
             "lifted_index": 2,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 26,
-            "rh2m": "67%",
+            "temp2m": 29,
+            "rh2m": "66%",
             "wind10m": {
-                "direction": "N",
+                "direction": "SE",
                 "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 159,
             "cloudcover": 9,
-            "lifted_index": 2,
+            "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 25,
-            "rh2m": "72%",
+            "temp2m": 29,
+            "rh2m": "65%",
             "wind10m": {
-                "direction": "N",
+                "direction": "S",
                 "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 162,
-            "cloudcover": 9,
-            "lifted_index": 2,
+            "cloudcover": 8,
+            "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 24,
-            "rh2m": "71%",
+            "temp2m": 29,
+            "rh2m": "69%",
             "wind10m": {
-                "direction": "N",
+                "direction": "S",
                 "speed": 2
             },
             "weather": "rainnight"
@@ -761,13 +761,13 @@
         {
             "timepoint": 165,
             "cloudcover": 9,
-            "lifted_index": 2,
+            "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 23,
-            "rh2m": "70%",
+            "temp2m": 28,
+            "rh2m": "78%",
             "wind10m": {
-                "direction": "NE",
+                "direction": "S",
                 "speed": 2
             },
             "weather": "rainnight"
@@ -775,98 +775,98 @@
         {
             "timepoint": 168,
             "cloudcover": 9,
-            "lifted_index": 2,
+            "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 24,
-            "rh2m": "72%",
+            "temp2m": 27,
+            "rh2m": "76%",
             "wind10m": {
-                "direction": "NE",
+                "direction": "SE",
                 "speed": 2
             },
-            "weather": "rainday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 171,
             "cloudcover": 9,
-            "lifted_index": 2,
+            "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 5,
             "temp2m": 27,
-            "rh2m": "70%",
+            "rh2m": "78%",
             "wind10m": {
-                "direction": "NE",
+                "direction": "E",
                 "speed": 2
             },
-            "weather": "rainday"
+            "weather": "rainnight"
         },
         {
             "timepoint": 174,
             "cloudcover": 9,
-            "lifted_index": 2,
+            "lifted_index": -1,
             "prec_type": "rain",
             "prec_amount": 5,
-            "temp2m": 27,
-            "rh2m": "65%",
+            "temp2m": 28,
+            "rh2m": "78%",
             "wind10m": {
-                "direction": "NE",
+                "direction": "E",
                 "speed": 2
             },
             "weather": "rainday"
         },
         {
             "timepoint": 177,
-            "cloudcover": 9,
-            "lifted_index": 2,
+            "cloudcover": 7,
+            "lifted_index": -1,
             "prec_type": "rain",
-            "prec_amount": 6,
-            "temp2m": 27,
-            "rh2m": "66%",
+            "prec_amount": 5,
+            "temp2m": 31,
+            "rh2m": "64%",
             "wind10m": {
-                "direction": "NE",
+                "direction": "S",
                 "speed": 2
             },
             "weather": "rainday"
         },
         {
             "timepoint": 180,
-            "cloudcover": 9,
+            "cloudcover": 7,
             "lifted_index": -1,
             "prec_type": "rain",
-            "prec_amount": 6,
-            "temp2m": 27,
-            "rh2m": "71%",
+            "prec_amount": 5,
+            "temp2m": 33,
+            "rh2m": "51%",
             "wind10m": {
-                "direction": "E",
+                "direction": "S",
                 "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 183,
             "cloudcover": 9,
-            "lifted_index": -1,
+            "lifted_index": -4,
             "prec_type": "rain",
-            "prec_amount": 6,
-            "temp2m": 26,
-            "rh2m": "76%",
+            "prec_amount": 5,
+            "temp2m": 33,
+            "rh2m": "55%",
             "wind10m": {
-                "direction": "E",
+                "direction": "S",
                 "speed": 2
             },
-            "weather": "rainnight"
+            "weather": "rainday"
         },
         {
             "timepoint": 186,
             "cloudcover": 9,
             "lifted_index": -1,
             "prec_type": "rain",
-            "prec_amount": 6,
-            "temp2m": 26,
-            "rh2m": "75%",
+            "prec_amount": 5,
+            "temp2m": 30,
+            "rh2m": "70%",
             "wind10m": {
-                "direction": "NE",
-                "speed": 2
+                "direction": "S",
+                "speed": 3
             },
             "weather": "rainnight"
         },
@@ -874,29 +874,29 @@
             "timepoint": 189,
             "cloudcover": 9,
             "lifted_index": -1,
-            "prec_type": "rain",
-            "prec_amount": 6,
-            "temp2m": 25,
-            "rh2m": "84%",
+            "prec_type": "none",
+            "prec_amount": 5,
+            "temp2m": 29,
+            "rh2m": "75%",
             "wind10m": {
-                "direction": "NE",
-                "speed": 2
+                "direction": "S",
+                "speed": 3
             },
-            "weather": "rainnight"
+            "weather": "cloudynight"
         },
         {
             "timepoint": 192,
             "cloudcover": 9,
             "lifted_index": -1,
-            "prec_type": "rain",
-            "prec_amount": 6,
-            "temp2m": 26,
-            "rh2m": "72%",
+            "prec_type": "none",
+            "prec_amount": 5,
+            "temp2m": 28,
+            "rh2m": "73%",
             "wind10m": {
-                "direction": "NE",
+                "direction": "S",
                 "speed": 2
             },
-            "weather": "rainday"
+            "weather": "cloudynight"
         }
     ]
 }
