@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+<body>
+<div class = "container p-3 my-3 border  text-dark" style="max-width:90%">
+    <section class="myheader" >
+        <div class="row" >
+            <div class="col-lg-6 col-sm-12" >
+                <div class = "logo" >
+                    <h1><img src="logo3.png"   class="rounded img-fluid"  alt = "Seller Logo" ><span  style="vertical-align:bottom;">Clover Clothing Co.</span></h1>
+<!--                <p> Image hre style = "width : 250px"  </p>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "about-us">
+        <div class="row">
+            <div class="col-sm-12 col-lg-5 col-md-12" style="padding-right : 15px">
+                <h1 >ABOUT US</h1>
+                <p >Founded in 2012, Pact Coffee was created to change people’s minds about coffee. We think about it like wine, not flour - it’s a cupboard staple, but one that’s infinitely better if it’s been lovingly grown and expertly processed. We want the UK to realise that. Because everyone deserves a truly quality cup of coffee.</p>
+                <p>769 Oak Meadow Ave. Branford, CT 06405</p>
+            </div>
+            <div class="col-md-12  col-lg-6 col-sm-12 dist" align="center">
+                <canvas id="PieChart" width="100%" height="100%" style="max-width:350px;padding : 5%"></canvas>
+                <br/>
+                <h6 align="center">Check out the Popularity Distribution of our Products</h6>
+            </div>
+    </section>
+
+    <section class="our-product">
+        <div class="container" style="background-color : #FFAA2B ;max-width:90%;" >
+            <h1>OUR PRODUCTS</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card text-dark">
+                <img class="card-img-top img-fluid" src="product1.jfif" alt="Card image">
+                <div class="card-body text-center">
+                    <h6 class="card-title">Product #1</h6>
+                    <div class="row">
+                        <div class="col">
+                            <h6>Category</h6>
+                            <p> Clothing</p>
+                        </div>
+                        <div class="col">
+                            <h6>Tags</h6>
+                            <p>#Fashion #Latest #Trending</p>
+                        </div>
+                        <div class="col">
+                            <h6>Visits</h6>
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-dark">
+                    <img class="card-img-top img-fluid" src="product2.jfif" alt="Card image">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Product #2</h6>
+                        <div class="row">
+                            <div class="col">
+                                <h6>Category</h6>
+                                <p>Mugs</p>
+                            </div>
+                            <div class="col">
+                                <h6>Tags</h6>
+                                <p>#Crafted</p>
+                            </div>
+                            <div class="col">
+                                <h6>Visits</h6>
+                                <p>150</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-dark">
+                    <img class="card-img-top img-fluid" src="product3.jfif" alt="Card image">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Product #3</h6>
+                        <div class="row">
+                            <div class="col">
+                                <h6>Category</h6>
+                                <p> Watch</p>
+                            </div>
+                            <div class="col">
+                                <h6>Tags</h6>
+                                <p>#Fashion #Comfort #Class</p>
+                            </div>
+                            <div class="col">
+                                <h6>Visits</h6>
+                                <p>100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-dark">
+                    <img class="card-img-top img-fluid" src="product1.jfif" alt="Card image">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Product #4</h6>
+                        <div class="row">
+                            <div class="col">
+                                <h6>Category</h6>
+                                <p> Clothing</p>
+                            </div>
+                            <div class="col">
+                                <h6>Tags</h6>
+                                <p>#New #Hurry Up</p>
+                            </div>
+                            <div class="col">
+                                <h6>Visits</h6>
+                                <p>100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-dark">
+                    <img class="card-img-top img-fluid" src="product4.jfif" alt="Card image">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Product #5</h6>
+                        <div class="row">
+                            <div class="col">
+                                <h6>Category</h6>
+                                <p>Vase</p>
+                            </div>
+                            <div class="col">
+                                <h6>Tags</h6>
+                                <p>#Crafty </p>
+                            </div>
+                            <div class="col">
+                                <h6>Visits</h6>
+                                <p>200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-dark">
+                    <img class="card-img-top img-fluid" src="product1.jfif" alt="Card image">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Product #6</h6>
+                        <div class="row">
+                            <div class="col">
+                                <h6>Category</h6>
+                                <p> Clothing</p>
+                            </div>
+                            <div class="col">
+                                <h6>Tags</h6>
+                                <p>#Fashion #Latest</p>
+                            </div>
+                            <div class="col">
+                                <h6>Visits</h6>
+                                <p>200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-dark">
+                    <img class="card-img-top img-fluid" src="product2.jfif" alt="Card image">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Product #7</h6>
+                        <div class="row">
+                            <div class="col">
+                                <h6>Category</h6>
+                                <p>Mugs</p>
+                            </div>
+                            <div class="col">
+                                <h6>Tags</h6>
+                                <p>#Crafty</p>
+                            </div>
+                            <div class="col">
+                                <h6>Visits</h6>
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-dark">
+                    <img class="card-img-top img-fluid" src="product3.jfif" alt="Card image">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Product #8</h6>
+                        <div class="row">
+                            <div class="col">
+                                <h6>Category</h6>
+                                <p>Watches</p>
+                            </div>
+                            <div class="col">
+                                <h6>Tags</h6>
+                                <p>#Fashion </p>
+                            </div>
+                            <div class="col">
+                                <h6>Visits</h6>
+                                <p>1000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+
+    var ctx2 = document.getElementById('PieChart').getContext('2d');
+var myPieChart = new Chart(ctx2, {
+    type: 'doughnut',
+    data:{
+    datasets: [{
+    label: 'Popular Products',
+        data:  [50,100,10,25,3],
+        "backgroundColor":["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)",'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)']
+    }],
+
+    // These labels appear in the legend and in the tooltips when hovering different arcs
+    labels:  ['Product #1','Product #2','Product #3','Product #4','Product #5'],
+
+
+},
+<!--    options: options-->
+options :{
+    legend : {
+        display : false
+    },
+    responsive : true,
+
+}
+});
+</script>
+</body>
+</html>

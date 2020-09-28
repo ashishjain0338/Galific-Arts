@@ -1,46 +1,73 @@
 body{
-     background-color: #F0F3F4 ;
+     /*background-color: #F0F3F4 ;*/
+     background-color : #F1F3F6;
 }
 
 .myheader{
     /*background-color: #F5B041  ;*/
     background-color: #FFAA2B ;
-    margin-bottom : 15px;
+    margin-bottom : 1%;
+    background-image: url("banner3.jfif");
+    background-size: cover;
 }
-
-.seller{
-    width : 40%;
-}
-
 
 .logo img{
- max-width : 150px;
-position: relative;
-  top: 0px;
-  z-index : 1;
-  border: 3px solid #73AD21;
+ max-width : 100px;
+}
+.profile-pic img{
+    max-width : 100px;
+}
+.profile-card{
+padding:5%;
+background-color : #F1F3F6;
+}
+.seller-name{
+font-size : 2.5rem;
+font-family: "Times New Roman", Times, serif;
+}
+
+.about-us{
+    padding : 1%;
+}
+.about-us p{
+font-size: 1.25rem;
+}
+.about-us h1{
+font-size : 2.1rem;
+line-height : 100%;
+font-family: "Bebas Neue","Times New Roman", Times, serif;
+}
+.product-header{
+font-size : 2rem;
+line-height : 100%;
+font-family: "Bebas Neue","Times New Roman", Times, serif;
+text-align : center;
+margin-bottom : 2%;
+}
+
+.fr h1{
+    font-size : 1.3rem;
+    padding-left : 5%;
+    padding-right : 0%;
 }
 
 
-#st-box {
-            float:left;
-            width:180px;
-            height:160px;
-            background-color:white;
-            border:solid black;
-        }
-        #nd-box {
-            float:left;
-            width:180px;
-            height:160px;
-            background-color:white;
-            border:solid black;
-            margin-left:20px;
-        }
-        #rd-box {
-            float:right;
-            width:180px;
-            height:160px;
-            background-color:white;
-            border:solid black;
-        }
+.product-details h5{
+    padding-left : 5%;
+    padding-right : 5%;
+    font-size : 1.15rem;
+
+}
+
+.product-card{
+background-color : #F4F1F0;
+margin-bottom : 15px;
+border : None;
+padding : 5px;
+}
+
+
+.product-details{
+font-size : 0.9rem;
+color : muted;
+}
