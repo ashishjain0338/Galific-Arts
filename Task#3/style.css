@@ -1,13 +1,11 @@
 body{
-     /*background-color: #F0F3F4 ;*/
      background-color : #F1F3F6;
 }
 
 .myheader{
-    /*background-color: #F5B041  ;*/
     background-color: #FFAA2B ;
     margin-bottom : 1%;
-    background-image: url("banner3.jfif");
+    background-image: url("Static/banner3.jfif");
     background-size: cover;
 }
 
@@ -45,6 +43,8 @@ text-align : center;
 margin-bottom : 2%;
 }
 
+
+/*fr abbreviates to For Heading css*/
 .fr h1{
     font-size : 1.3rem;
     padding-left : 5%;
