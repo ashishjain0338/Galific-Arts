@@ -1,5 +1,0 @@
-print("Trying to add incompatible variables, as in adding 6 + ‘a’ -->  " , "TypeError")
-print("Referring to the 12th item of a list that has only 10 items --> ","IndexError")
-print("Using a value that is out of range for a function’s input  -->","ValueError: math domain error")
-print("Using an undeclared variable, such as print(x) when x has not been defined  -->","NameError: name 'x' is not defined")
-print("Trying to open a file that does not exist, -->","FileNotFoundError")
