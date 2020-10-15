@@ -1,3 +1,0 @@
-ETL
-https://www.dremio.com/what-is-a-data-pipeline/
-https://www.activestate.com/blog/how-to-create-scalable-data-pipelines-with-python/
