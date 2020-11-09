@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+<body>
+<div class = "container p-3 my-3 border  text-dark" style="max-width:90%">
+
+    <section class="about-us">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12  col-md-12 order-sm-10" align="center" style="margin-top:5px;padding:5px;">
+                <img align="center" class="card-img-top img-fluid"   src="Static/profile-pic.jpeg" alt="Card image">
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6 desc " >
+                <h1 >Olivia Oneill</h1>
+                <button class="dislike" onclick="dislikefunc()">
+                    <i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+                </button>
+
+                <button class="like" onclick="likefunc()" >
+                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                </button>
+                <p>What happens when the three-time winner of Rochester’s Best Busker competition assembles a jug band to perform “America’s happiest music” with all manner of banjolins, washboards, kazoos, and fiddles? Well, people dance, stomp, and sing. A lot. This is The Ruckus Juice Jug Stompers.</p>
+                <div align="center">
+                    <a href="#" class="social fa fa-facebook"></a>
+                    <a href="#" class="social fa fa-instagram"></a>
+                    <a href="#" class="social fa fa-youtube"></a>
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-6 col-md-6 achievement">
+                <h1>Achievements </h1>
+                <ol>
+                    <li><p>Been a Grammy Award Taker for Best Rock Song at London,dated 2016</p></li>
+                    <li><p>Been a Grammy Award Taker for Best Rock Song at London,dated 2016</p></li>
+                    <li><p>Been a Grammy Award Taker for Best Rock Song at London,dated 2016</p></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <hr/>
+    <section class="selection-bar">
+        <div align="center">
+            <button class="btn  default" onclick="showimages()">Images</button>
+            <button class="btn default" onclick="showvideos()">Videos</button>
+            <button class="btn default" onclick="showblog()">Blog</button>
+        </div>
+    </section>
+    <hr/>
+    <section class="myimages" id="myimages">
+        <div class="row">
+            <div class="col-sm-4 col-lg-4">
+                <div class="card text-dark image-card">
+                <img class="card-img-top  product-img" src="Static/pic2.jfif" alt="Card image">
+                    <div class="card-body">
+                        <p>Caption 1 Caption 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-4">
+                <div class="card text-dark image-card">
+                <img class="card-img-top img-fluid product-img" src="Static/pic3.jfif" alt="Card image">
+                    <div class="card-body">
+                        <p>Caption 1 Caption 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-4">
+                <div class="card text-dark image-card">
+                <img class="card-img-top img-fluid image-img" src="Static/pic2.jfif" alt="Card image">
+                    <div class="card-body">
+                        <p>Caption 1 Caption 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-4">
+                <div class="card text-dark image-card">
+                <img class="card-img-top img-fluid product-img" src="Static/pic3.jfif" alt="Card image">
+                    <div class="card-body">
+                        <p>Caption 1 Caption 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="myvideos" id="myvideos" style="display:none;">
+        <div class="row">
+            <div class="col-sm-4 col-lg-4" style="margin-bottom:10%">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" allowfullscreen src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" ></iframe>
+                </div>
+                <p>Video Description</p>
+            </div>
+            <div class="col-sm-4 col-lg-4" style="margin-bottom:10%">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" allowfullscreen src="https://www.youtube.com/embed/WrHDquZ-tj0?rel=0" ></iframe>
+
+                </div>
+                <p>Video Description</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="myblog" id="myblog" style="display:none;">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4" style="margin-bottom:10%">
+                <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Rock Band Concert</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">London</h6>
+                        <p class="card-text">Some quick example.Some quick example Some quick example Some quick example Some quick example
+                        Some quick example Some quick example Some quick example Some quick example Some quick example Some quick example
+                        Some quick example Some quick example Some quick example Some quick example Some quick example</p>
+                      </div>
+                    </div>
+                <div class="card-footer">Posted October 10,2020</div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4" style="margin-bottom:10%">
+                <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Rock Band Concert</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">London</h6>
+                        <p class="card-text">Some quick example.Some quick example Some quick example Some quick example Some quick example
+                        Some quick example Some quick example Some quick example Some quick example Some quick example Some quick example
+                        Some quick example Some quick example Some quick example Some quick example Some quick example</p>
+                      </div>
+                    </div>
+                <div class="card-footer">Posted October 10,2020</div>
+            </div>
+        </div>
+
+    </section>
+</div>
+<script>
+    function showimages(){
+    console.log("Images Clicked");
+    document.getElementById("myimages").style.display = "block";
+    document.getElementById("myvideos").style.display = "none";
+    document.getElementById("myblog").style.display = "none";
+    }
+    function showvideos(){
+    console.log("Videos Clicked");
+    document.getElementById("myimages").style.display = "none";
+    document.getElementById("myvideos").style.display = "block";
+    document.getElementById("myblog").style.display = "none";
+    }
+    function showblog(){
+    console.log("Blog Clicked");
+    document.getElementById("myimages").style.display = "none";
+    document.getElementById("myvideos").style.display = "none";
+    document.getElementById("myblog").style.display = "block";
+    }
+    function likefunc(){
+    console.log('Like Clicked');
+    $('.like').css("background-color" ,"rgba(38,166,154 ,0.3)");
+    $('.dislike').css("background-color" ,"inherit");
+    }
+    function dislikefunc(){
+    console.log('DisLike Clicked');
+    $('.dislike').css("background-color" ,"rgba(255,138,128 ,0.3)");
+    $('.like').css("background-color" ,"inherit");
+    }
+</script>
+</body>
+</html>
